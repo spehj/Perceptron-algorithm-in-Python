@@ -38,6 +38,7 @@ The dataset of this script consists of samples of the Iris dataset in which ther
 
 Iris is a very well-known dataset in the field of pattern recognition. It is characterized by the fact that the combinations of classes 1 and 2 and 1 and 3 are linearly separable, while classes 2 and 3 are not.
 
+To run the second script type:
 ```console
 :~$ python perceptron_iris.py "iris.data" 100 0.1
 ```
