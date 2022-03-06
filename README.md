@@ -1,5 +1,7 @@
 # Perceptron algorithm in Python
-Perceptron algorithm with fixed increment implemented in Python. I've written two scripts:
+This repo contains code for perceptron algorithm with fixed increment (also called single layer perceptron) implemented in Python. Single layer perceptron is foundation for artificial neural networks. It's my final project for the Pattern recognition university course.
+
+I've written two scripts:
 
 - perceptron_simple.py can learn a linear decision boundary between two classes of 2D samples.
 - perceptron_iris.py is an upgraded version where we find decision boundary between each pair of classes. Since class 2 and 3 are not linearly separable, we cannot get the 100% right accuracy.
