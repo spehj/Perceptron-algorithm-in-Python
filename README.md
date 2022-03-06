@@ -31,16 +31,16 @@ The learning set consists of two classes of samples, each with two samples with 
 Result for 10 iterations and learning rate equals 1:
 ![Figure_1](https://user-images.githubusercontent.com/62114221/156884925-f5cce8a9-8d94-4a4a-8634-951ab2e9feb7.png)
 
-To run the script type:
+Example of command to run the script type:
 ```console
-:~$ python perceptron_simple.py "sample.txt" 10 0.1
+python perceptron_simple.py "sample.txt" 10 0.1
 ```
 ### Perceptron algorithm with Iris dataset
 The dataset of this script consists of samples of the Iris dataset in which there are three classes (three types of flowers). Each sample consists of four measurements. The total number of samples is 150, for each class 50.
 
 Iris is a very well-known dataset in the field of pattern recognition. It is characterized by the fact that the combinations of classes 1 and 2 and 1 and 3 are linearly separable, while classes 2 and 3 are not.
 
-To run the second script type:
+Example of command to run the second script:
 ```console
-:~$ python perceptron_iris.py "iris.data" 100 0.1
+python perceptron_iris.py "iris.data" 100 0.1
 ```
